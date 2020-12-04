@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  font-family:sans-serif;
+ color:#fff;
+ background-color:#004F7C;
+}
+
+.map img{
+  margin-top: 25px;
+  width: 350px;
+  height: auto;
+  margin-left: 10%;
+}
+.link{
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 3px;
+}
+a {
+  padding-top: 60px;
+  text-decoration: none;
+  color:#222222;
+}
+a:hover{
+  color:#666;
+}
+
+h1{
+  text-align: center;
+  font-size:2.0em;
+}
+p{
+  font-size: 1.8em;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+}
+.child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+.right {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+    background-color:#004F7C;
+  font-size: 1.0em;
+}
+.left {
+  background: #3498db;
+  background-image: url("../img/背景1.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+@media (max-width:600px)  {
+  .right {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color:#004F7C;
+    font-size: 0.6em;
+
+  }
+  .map img{
+    width: 250px;
+    height: auto;
+    margin-left: 10%;
+  }
+}
+@media (min-width:1200px) /*1200以上*/{
+  .parent {
+    display: flex;
+  }
+  .right {
+    order: 2;
+    background-color:#004F7C;
+    width: 45%;
+    height: 100vh;
+    font-size: 1.0em;
+  }
+  h1{
+    text-align: center;
+    font-size:2.5em;
+  }
+  .map img{
+    width: 500px;
+    height: auto;
+    margin-left: 10%;
+  }
+  .link{
+    text-align: center;
+    margin-top: 50px;
+  }
+  #hclogo1{
+    text-align: center;
+    margin: 3px 10px 0 15px;
+  }
+
+  .left {
+    background-image: url("../img/背景1.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    order: 1;
+    width: 42%;
+    height: 100vh;
+
+  }
+
+}
