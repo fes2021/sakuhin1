@@ -271,18 +271,61 @@ text-align: center;
 }
 
 /* === ホーム === */
-[class^="img-flex-"] {
-	margin-bottom: 20px;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-justify-content: space-between;
-	justify-content: space-between;
-}
-
-.img-flex-2 img {
-  width: 150px;
+.home-courseimg-area{
+  display: block;
+  padding: 20px 0;
+  width: 60%;
   height: auto;
   margin: 0 auto;
+}
+.home-courseimg1 {
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.home-courseimg2 {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.home-courseimg3 {
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.home-courseimg4 {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 890px) {
+.home-courseimg-area{
+    display: flex;
+    padding: 20px 0;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.home-courseimg1 {
+    min-width: 1%;
+    margin: 0 auto;
+}
+
+.home-courseimg2 {
+    min-width: 1%;
+    margin: 0 auto;
+}
+
+.home-courseimg3 {
+    min-width: 1%;
+    margin: 0 auto;
+}
+
+.home-courseimg4 {
+    min-width: 1%;
+    margin: 0 auto;
+}
 }
 
 /* === アクセス === */
@@ -433,7 +476,7 @@ margin-left: 5%;
   margin-bottom: 10px;
   }
 }
-/* スマホ　375px以下 */
+/* スマホ　540px以下 */
 @media screen and (max-width: 540px) {
 .topContentsBox {
   display: flex;

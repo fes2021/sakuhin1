@@ -2,16 +2,932 @@
 
 .course {
     display: flex;
-    height: 100vh;
-    padding: 100px 0;
+    padding: 20px 0;
     width: 70%;
+    height: auto;
     margin: 0 auto;
+}
+
+.image-area {
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    margin-right: 16px;
+}
+
+.course-image {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.course-textbox {
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 55px;
+    margin-left: 13px;
+}
+
+.course2 {
+    display: flex;
+    padding: 20px 0;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+}
+
+.image-area2 {
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 13px;
+}
+
+.course-image2 {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.course-textbox2 {
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 75px;
+    margin-right: 16px;
+}
+
+.course-h3 {
+  font-size: 21px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.course-li{
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.course-li2{
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.course-li3{
+  font-size: 14px;
+  margin-left: 20px;
+}
+.course-Btn-area{
+  width: 350px;
+  margin : 0 auto;
+}
+
+.course-Btn{
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  display: block;
+  width: 350px;
+  height:25px;
+  line-height:30px;
+  padding: 20px 0;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ffa07a;
+  text-decoration: none;
+  border-radius: 35px;
+  font-size: 16px;
+}
+
+.course-Btn-Icon{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  width: 25px;
+  height: auto;
+  transform: translateY(-50%);
+}
+
+.interview-p1{
+  margin-left: 30%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.interview-p2{
+  width: 200px;
+  height: auto;
+  margin-left: 30%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/* インタビュー ⾳響コース*/
+.interview {
+    display: flex;
+    padding: 20px 0;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.interview-image-area {
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    margin-right: 16px;
+}
+
+.interview-image {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.interview-textbox {
+    width: 550px;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 13px;
+}
+
+.interview2 {
+    display: flex;
+    padding: 20px 0;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+}
+
+.interview-image-area2 {
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 13px;
+}
+
+.interview-image2 {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.interview-textbox2 {
+    width: 550px;
+    height: auto;
+    margin: 0 auto;
+    margin-right: 16px;
+}
+
+.interview-h3 {
+  font-size: 21px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#interview-P{
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+/* ゲームクリエーターコース*/
+.interview3 {
+    display: flex;
+    padding: 20px 0;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+}
+
+.interview-image-area3 {
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 13px;
+}
+
+.interview-image3 {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.interview-textbox3 {
+    width: 490px;
+    height: auto;
+    margin: 0 auto;
+    margin-right: 16px;
+}
+
+.interview4 {
+    display: flex;
+    padding: 20px 0;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.interview-image-area4 {
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    margin-right: 16px;
+}
+
+.interview-image4 {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.interview-textbox4 {
+    width: 490px;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 13px;
+}
+
+.interview5 {
+    display: flex;
+    padding: 20px 0;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+}
+
+.interview-image-area5 {
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 13px;
+}
+
+.interview-image5 {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.interview-textbox5 {
+    width: 490px;
+    height: auto;
+    margin: 0 auto;
+    margin-right: 16px;
+}
+
+.interview-game{
+  display: flex;
+  margin-left: 0;
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
 
 }
-.course-image {
-    width: 50%;
-    height: 50%;
+
+.interview-game li{
+  display: flex;
+  margin-left: 14%;
+  margin-right: 14%;
+  width: 1000px;
+  height: auto;
 }
-.course-textbox {
-    width: 50%;
+
+@media (max-width: 890px) {
+  .course {
+    display: block;
+      padding: 20px 0;
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+  }
+  .image-area {
+      width: 370px;
+      height: auto;
+      margin: 0 auto;
+  }
+
+  .course-image {
+      width:100%;
+      max-width: 100%;
+      height: auto;
+  }
+
+  .course-textbox {
+      width: 370px;
+      height: auto;
+      margin: 0 auto;
+  }
+
+  .course2 {
+    display: block;
+      padding: 20px 0;
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+  }
+  .image-area2 {
+      width: 370px;
+      height: auto;
+      margin: 0 auto;
+  }
+
+  .course-image2 {
+      width:100%;
+      max-width: 100%;
+      height: auto;
+  }
+
+  .course-textbox2 {
+      width: 370px;
+      height: auto;
+      margin: 0 auto;
+  }
+
+  .course-li{
+    font-size: 11px;
+    margin-left: 20px;
+  }
+
+  .course-li2{
+    font-size: 11px;
+    margin-left: 20px;
+  }
+
+  .course-li3{
+    font-size: 11px;
+    margin-left: 20px;
+  }
+
+  .course-Btn-area{
+    width: 280px;
+    height:25px;
+    margin : 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .course-Btn{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    display: block;
+    width: 280px;
+    height:25px;
+    line-height:25px;
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ffa07a;
+    text-decoration: none;
+    border-radius: 35px;
+    font-size: 12px;
+  }
+
+  .course-Btn-Icon{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    width: 15px;
+    height: auto;
+    transform: translateY(-50%);
+  }
+
+  .interview-p1{
+   width: 80px;
+   height: auto;
+   margin: 0 auto;
+   margin-top: 50px;
+   margin-bottom: 20px;
+ }
+ /* インタビュー ⾳響コース*/
+ .interview {
+     display: block;
+     padding: 20px 0;
+     width: 100%;
+     height: auto;
+ }
+
+ .interview-image-area {
+     width: 400px;
+     height: auto;
+     margin-left: 20px;
+     position: relative;
+     top: 80px;
+ }
+
+ .interview-image {
+     width:100%;
+     max-width: 100%;
+     height: auto;
+ }
+
+ .interview-textbox {
+     width: 550px;
+     height: auto;
+     margin: 0 auto;
+     background-color: #c4e9f9;
+ }
+
+ .interview2 {
+     display: block;
+     padding: 20px 0;
+     width: 100%;
+     height: auto;
+ }
+
+ .interview-image-area2 {
+     width: 400px;
+     height: auto;
+     margin: 0 20px 0 auto;
+     position: relative;
+     top: 80px;
+ }
+
+ .interview-image2 {
+     width:100%;
+     max-width: 100%;
+     height: auto;
+ }
+
+ .interview-textbox2 {
+     width: 550px;
+     height: auto;
+     margin: 0 auto;
+     background-color: #c4e9f9;
+ }
+
+ .interview-text {
+     width: 420px;
+     height: 290px;
+     margin: 0 auto;
+     margin-top: 13px;
+     padding-top: 80px;
+ }
+ .interview-text2 {
+     width: 420px;
+     height: 260px;
+     margin: 0 auto;
+     margin-top: 7px;
+     padding-top: 90px;
+ }
+
+ /* ゲームクリエーターコース*/
+ .interview3 {
+     display: block;
+     padding: 20px 0;
+     width: 100%;
+     height: auto;
+ }
+
+ .interview-image-area3 {
+     width: 400px;
+     height: auto;
+     margin-left: 0 0 0 auto;
+     position: relative;
+     top: 80px;
+ }
+
+ .interview-image3 {
+     width:100%;
+     max-width: 100%;
+     height: auto;
+ }
+
+ .interview-textbox3 {
+     width: 550px;
+     height: auto;
+     margin: 0 auto;
+     background-color: #c4e9f9;
+ }
+
+ .interview-text3 {
+     width: 420px;
+     height: 150px;
+     margin: 0 auto;
+     margin-top: 7px;
+     padding-top: 90px;
+ }
+
+ .interview4 {
+     display: block;
+     padding: 20px 0;
+     width: 100%;
+     height: auto;
+ }
+
+ .interview-image-area4 {
+     width: 400px;
+     height: auto;
+     margin-right: 0 0 0 auto;
+     position: relative;
+     top: 80px;
+ }
+
+ .interview-image4 {
+     width:100%;
+     max-width: 100%;
+     height: auto;
+ }
+
+ .interview-textbox4 {
+     width: 550px;
+     height: auto;
+     margin: 0 auto;
+     background-color: #c4e9f9;
+ }
+
+ .interview-text4 {
+     width: 420px;
+     height: 160px;
+     margin: 0 auto;
+     margin-top: 7px;
+     padding-top: 90px;
+ }
+ .interview5 {
+     display: block;
+     padding: 20px 0;
+     width: 100%;
+     height: auto;
+ }
+
+ .interview-image-area5 {
+     width: 400px;
+     height: auto;
+     margin-left: 0 0 0 auto;
+     position: relative;
+     top: 80px;
+ }
+
+ .interview-image5 {
+     width:100%;
+     max-width: 100%;
+     height: auto;
+ }
+
+ .interview-textbox5 {
+     width: 550px;
+     height: auto;
+     margin: 0 auto;
+     background-color: #c4e9f9;
+ }
+
+ .interview-text5 {
+     width: 420px;
+     height: 280px;
+     margin: 0 auto;
+     margin-top: 7px;
+     padding-top: 90px;
+ }
+
+ .interview-game{
+  display: flex;
+  margin-left: 0;
+  width: 450px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+
+}
+
+.interview-game li{
+  display: flex;
+  margin-left: 2px;
+  margin-right: 10px;
+  width: 450px;
+  height: auto;
+  font-size: 14px;
+}
+
+.interview-p2{
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+ }
+/* スマホ　540px以下 */
+@media screen and (max-width: 540px) {
+  .course {
+    display: block;
+      padding: 20px 0;
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+  }
+  .image-area {
+      width:100%;
+      height: auto;
+      margin: 0 auto;
+  }
+
+  .course-image {
+      width:100%;
+      max-width: 100%;
+      height: auto;
+  }
+
+  .course-textbox {
+      width:100%;
+      height: auto;
+      margin: 0 auto;
+  }
+
+  .course2 {
+    display: block;
+      padding: 20px 0;
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+  }
+  .image-area2 {
+      width:100%;
+      height: auto;
+      margin: 0 auto;
+  }
+
+  .course-image2 {
+      width:100%;
+      max-width: 100%;
+      height: auto;
+  }
+
+  .course-textbox2 {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+  }
+
+  .course-li{
+    font-size: 11px;
+    margin-left: 20px;
+  }
+
+  .course-li2{
+    font-size: 11px;
+    margin-left: 20px;
+  }
+
+  .course-li3{
+    font-size: 11px;
+    margin-left: 20px;
+  }
+
+  .course-Btn-area{
+    width: 280px;
+    height:25px;
+    margin : 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .course-Btn{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    display: block;
+    width: 280px;
+    height:25px;
+    line-height:25px;
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ffa07a;
+    text-decoration: none;
+    border-radius: 35px;
+    font-size: 12px;
+  }
+
+  .course-Btn-Icon{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    width: 15px;
+    height: auto;
+    transform: translateY(-50%);
+  }
+
+  /* インタビュー ⾳響コース*/
+  .interview {
+      display: block;
+      padding: 5px 0;
+      width: 100%;
+      height: auto;
+  }
+
+  .interview-image-area {
+      width: 170px;
+      height: auto;
+      margin-left: 10px;
+      position: relative;
+      top: 40px;
+  }
+
+  .interview-image {
+      width:100%;
+      max-width: 100%;
+      height: auto;
+  }
+
+  .interview-textbox {
+      width: 285px;
+      height: auto;
+      margin: 0 auto;
+      background-color: #c4e9f9;
+  }
+
+  .interview2 {
+      display: block;
+      padding: 5px 0;
+      width: 100%;
+      height: auto;
+  }
+
+  .interview-image-area2 {
+      width: 170px;
+      height: auto;
+      margin: 0 13px 0 auto;
+      position: relative;
+      top: 40px;
+  }
+
+  .interview-image2 {
+      width:100%;
+      max-width: 100%;
+      height: auto;
+  }
+
+  .interview-textbox2 {
+      width: 285px;
+      height: auto;
+      margin: 0 auto;
+      background-color: #c4e9f9;
+  }
+
+  .interview-text {
+      width: 240px;
+      height: 280px;
+      margin: 0 auto;
+      margin-top: 7px;
+      padding-top: 45px;
+      font-size: 12px;
+  }
+  .interview-text2 {
+      width: 240px;
+      height: 260px;
+      margin: 0 auto;
+      margin-top: 7px;
+      padding-top: 45px;
+      font-size: 12px;
+  }
+
+  /* ゲームクリエーターコース*/
+  .interview3 {
+      display: block;
+      padding: 20px 0;
+      width: 100%;
+      height: auto;
+  }
+
+  .interview-image-area3 {
+      width: 170px;
+      height: auto;
+      margin-left: 0 0 0 auto;
+      position: relative;
+      top: 40px;
+  }
+
+  .interview-image3 {
+      width:100%;
+      max-width: 100%;
+      height: auto;
+  }
+
+  .interview-textbox3 {
+      width: 285px;
+      height: auto;
+      margin: 0 auto;
+      background-color: #c4e9f9;
+  }
+
+  .interview-text3 {
+      width: 240px;
+      height: 110px;
+      margin: 0 auto;
+      margin-top: 7px;
+      padding-top: 52px;
+      font-size: 12px;
+  }
+
+  .interview4 {
+      display: block;
+      padding: 20px 0;
+      width: 100%;
+      height: auto;
+  }
+
+  .interview-image-area4 {
+      width: 170px;
+      height: auto;
+      margin-right: 0 0 0 auto;
+      position: relative;
+      top: 40px;
+  }
+
+  .interview-image4 {
+      width:100%;
+      max-width: 100%;
+      height: auto;
+  }
+
+  .interview-textbox4 {
+      width: 285px;
+      height: auto;
+      margin: 0 auto;
+      background-color: #c4e9f9;
+  }
+
+  .interview-text4 {
+      width: 240px;
+      height: 143px;
+      margin: 0 auto;
+      margin-top: 7px;
+      padding-top: 52px;
+      font-size: 12px;
+  }
+
+  .interview5 {
+      display: block;
+      padding: 20px 0;
+      width: 100%;
+      height: auto;
+  }
+
+  .interview-image-area5 {
+      width: 170px;
+      height: auto;
+      margin-left: 0 0 0 auto;
+      position: relative;
+      top: 40px;
+  }
+
+  .interview-image5 {
+      width:100%;
+      max-width: 100%;
+      height: auto;
+  }
+
+  .interview-textbox5 {
+      width: 285px;
+      height: auto;
+      margin: 0 auto;
+      background-color: #c4e9f9;
+  }
+
+  .interview-text5 {
+      width: 240px;
+      height: 237px;
+      margin: 0 auto;
+      margin-top: 7px;
+      padding-top: 52px;
+      font-size: 12px;
+  }
+
+  .interview-game{
+    display: flex;
+    margin-left: 0;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+  }
+
+  .interview-game li{
+    display: flex;
+    margin-left: 1;
+    margin-right: 1px;
+    width: 300px;
+    height: auto;
+    font-size: 10px;
+  }
+
+  .interview-h3 {
+  font-size: 13px;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.course-h3 {
+font-size: 16px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
 }
