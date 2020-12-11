@@ -722,7 +722,7 @@
   }
 
   .interview-image-area {
-      width: 170px;
+      width: 250px;
       height: auto;
       margin-left: 10px;
       position: relative;
@@ -750,9 +750,9 @@
   }
 
   .interview-image-area2 {
-      width: 170px;
+      width: 250px;
       height: auto;
-      margin: 0 13px 0 auto;
+      margin: 0 10px 0 auto;
       position: relative;
       top: 40px;
   }
@@ -796,7 +796,7 @@
   }
 
   .interview-image-area3 {
-      width: 170px;
+      width: 250px;
       height: auto;
       margin-left: 0 0 0 auto;
       position: relative;
@@ -833,7 +833,7 @@
   }
 
   .interview-image-area4 {
-      width: 170px;
+      width: 250px;
       height: auto;
       margin-right: 0 0 0 auto;
       position: relative;
@@ -870,7 +870,7 @@
   }
 
   .interview-image-area5 {
-      width: 170px;
+      width: 250px;
       height: auto;
       margin-left: 0 0 0 auto;
       position: relative;
