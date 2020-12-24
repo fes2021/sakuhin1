@@ -47,6 +47,37 @@ max-width: 100%;
 height:auto;
 }
 
+.img-works {
+  display: block;
+  max-width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.img-works2 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.works-visual {
+  position: relative;
+  top: 50%;
+}
+
+.works-visual .back {
+  z-index: 0;
+}
+
+.works-visual .front {
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .container{
 margin: 0 auto;
 padding-left: 10px;
