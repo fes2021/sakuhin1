@@ -30,11 +30,12 @@ height: auto;
 }
 
 a{
-color: #709a00;
+  color: #000;
+  text-decoration: none;
 }
 
 a:hover{
-color: #efefef;
+  color: #808080;
 }
 
 a:active{
@@ -55,12 +56,12 @@ max-width: 1000px;
 }
 
 @media screen and (min-width: 890px){
-.container{
-padding-left: 20px;
-padding-right: 20px;
-}
-}
-
+  .container{
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+  }
+  
 /* === ヘッダー === */
 header{
 background: #ffffff;
@@ -260,9 +261,16 @@ margin-right: 30px;
 margin-top: 10px;
 }
 }
+/* === 作品ナビゲーション ===*/
+.sakuhinn  li{
+  flex: 1 1 auto;
+  text-align: center;
+  list-style-type: none;
+  }
 
 /* === 見出し === */
 .home-h3{
+font-family: 'PT Serif', serif;
 padding-bottom: 5px;
 margin: 80px 0 10px 0;
 color: #393939;
@@ -332,6 +340,7 @@ text-align: center;
 #midashi-P{
   text-align: center;
   margin-top: -15px;
+  font-weight: bold;
 }
 
 #access-P2{
@@ -510,7 +519,7 @@ header h1 {
 }
 
 main {
-  width: 800px;
+  width: 980px;
   padding: 5px;
   box-sizing: border-box;
   margin: 0 auto;
@@ -581,3 +590,7 @@ p {
     grid-template-columns: 1fr 1fr;
   }
 }
+/* ジャンルへアクセス*/
+
+
+
