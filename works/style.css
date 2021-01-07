@@ -61,7 +61,7 @@ max-width: 1000px;
   padding-right: 20px;
   }
   }
-  
+
 /* === ヘッダー === */
 header{
 background: #ffffff;
@@ -131,6 +131,27 @@ flex: 1 1 auto;
 text-align: center;
 }
 }
+
+.entext {
+  display: none;
+}
+
+.jptext {
+  font-size: 16px;
+  margin: 0;
+}
+
+@media screen and (min-width: 890px) {
+  .entext {
+    display: block;
+    font-size: 16px;
+    margin: 0;
+  }
+  .jptext {
+    font-size: 13px;
+  }
+}
+
 /* === フッター === */
 footer{
 background: #004F7C;
@@ -591,6 +612,3 @@ p {
   }
 }
 /* ジャンルへアクセス*/
-
-
-
